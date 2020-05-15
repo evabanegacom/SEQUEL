@@ -94,3 +94,5 @@ FROM game
 LEFT JOIN goal ON goal.matchid = game.id
 GROUP BY game.mdate, game.team1, game.team2
 ORDER BY game.mdate
+
+finish
